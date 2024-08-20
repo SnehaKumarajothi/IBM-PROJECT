@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <title>Test Page IBM</title>
+    
+    <style>
+        .form-input {
+          background: #ffe4e1;
+          padding: 10px 10px;
+          border: 1px solid #dddddd;
+          border-radius: 3px;
+          margin-bottom: 20px;
+          width: 70%
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <div class="container">
+          <a class="navbar-brand mr-4" href=#>Flask Blog</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href=#>Home</a>
+              <a class="nav-item nav-link" href=#>About</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href=#>Login</a>
+              <a class="nav-item nav-link" href=#>Register</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+     <div class="content-section">
+        <form method="POST" action=#>
+            <fieldset class="form-group">
+                    <div class = "form-input">
+                      <label for="age">Age:</label><br>
+                      <input type="text" id="age" name="age">
+                      </div>
+                      <br>
+                    <div class = "form-input">
+                      <label for="fname">First name:</label><br>
+                      <input type="text" id="fname" name="fname">
+                      </div>
+                      <br>
+                      <div class = "form-input">
+                      <label for="lname">Last name:</label><br>
+                      <input type="text" id="lname" name="lname"
+                      </div>
+                    
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
